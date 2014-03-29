@@ -9,7 +9,7 @@ public class Complex implements TrigonometricForm, ComplexActions, ComplexMath {
 
     private double a;
     private double b;
-
+    private static final double def_val = 0;
 public void set_a(int a)
 {
     this.a = a;
@@ -38,8 +38,8 @@ public Complex(double a, double b)
 }
     public Complex()
     {
-       a = 0;
-       b = 0;
+       a = def_val;
+       b = def_val;
 
     }
 
