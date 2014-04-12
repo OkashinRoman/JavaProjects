@@ -73,13 +73,20 @@ public class LinkedList <T> implements List {
     }
 
     @Override
-    public T remove() {
+    public T remove(){
+        T data;
+        if (first.next != null){
         Refer temp = first;
         while (temp.next != last)
             temp = temp.next;
-        T data = (T) temp.next.data;
+        data = (T) temp.next.data;
         last = temp;
-        last.next = null;
+        last.next = null;}
+        else{
+        data = (T)first.data;
+            first = null;
+            last  =  null;
+        }
 
         return data;
     }

@@ -40,5 +40,8 @@ public class LinkedListTest {
             list.add(i*i);
         list.remove();
         Assert.assertEquals(list.size(), 4);
-    }
+        for(int i = 0;i < 4; i++)
+            list.remove();
+        Assert.assertEquals(list.size(), 0);
+      }
 }
