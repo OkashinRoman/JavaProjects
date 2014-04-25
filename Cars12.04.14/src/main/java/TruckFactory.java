@@ -15,6 +15,5 @@ public class TruckFactory {
         return null;
 
 
-
     }
 }

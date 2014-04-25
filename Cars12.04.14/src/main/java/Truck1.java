@@ -3,16 +3,19 @@
  */
 public class Truck1 extends Truck {
 
-    Truck1(){};
-    Truck1(Integer CarId, String CarColor){
+    Truck1() {
+    }
+
+    ;
+
+    Truck1(Integer CarId, String CarColor) {
         super(CarId, CarColor);
     }
 
 
-
     @Override
-    public String ToString() {
-        return (super.ToString()+"Truck1");
+    public String toString() {
+        return (super.toString() + "Truck1");
     }
 
     @Override

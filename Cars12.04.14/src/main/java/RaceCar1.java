@@ -1,18 +1,19 @@
 /**
  * Created by okashinR on 19/04/14.
  */
-public class RaceCar1 extends RaceCar{
-    RaceCar1(){
+public class RaceCar1 extends RaceCar {
+    RaceCar1() {
 
     }
-    public RaceCar1(int carSpeed, int CarId, String CarColor){
+
+    public RaceCar1(int carSpeed, int CarId, String CarColor) {
         super(carSpeed, CarId, CarColor);
     }
 
 
     @Override
-    public String ToString() {
-        return (super.ToString()+"car1");
+    public String toString() {
+        return (super.toString() + " RaceCar1");
     }
 
     @Override

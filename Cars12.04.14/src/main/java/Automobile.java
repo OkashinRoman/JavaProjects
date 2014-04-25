@@ -2,14 +2,18 @@
  * Created by okashinR on 23/04/14.
  */
 public class Automobile extends Car {
-    Automobile(){};
-    Automobile(Integer CarId, String CarColor){
+    Automobile() {
+    }
+
+    ;
+
+    Automobile(Integer CarId, String CarColor) {
         super(CarId, CarColor);
     }
 
     @Override
-    String ToString() {
-        return super.ToString();
+    public String toString() {
+        return super.toString();
     }
 
     @Override
